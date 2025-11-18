@@ -1,11 +1,9 @@
 .flexbox {
     display: flex;
-    border: 2px solid rgb(2, 63, 7);
     padding: 20px;
     align-items: center;
 }
 .item {
-    border: 2px solid rgb(24, 82, 16);
     padding: 20px;
     align-items: center;
 }
@@ -24,4 +22,17 @@
 
 #innerbox4 {
 background-color: rgb(96, 131, 91);
+}
+
+h1{
+    font-style:italic;
+    color:rgb(26, 59, 1);
+}
+h2{
+    color:rgb(26, 59, 1);
+}
+
+p{
+font-style:italic;
+color:rgb(26, 59, 1);
 }
