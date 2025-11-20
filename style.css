@@ -1,18 +1,24 @@
 .flexbox {
     display: flex;
-    padding: 20px;
-    align-items: center;
 }
 .item {
     padding: 20px;
     align-items: center;
+     border-width: 10px ; 
+    border-style: solid;
+    border-color: rgb(34, 71, 19);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
 }
 #box1 {
     justify-content: space-evenly;
     background-color: rgb(84, 130, 78);
+    
 }
 #box2, #box3, #box4 {
     justify-content: center;
+
     
 }
 
@@ -30,9 +36,18 @@ h1{
 }
 h2{
     color:rgb(26, 59, 1);
+    font-style:oblique
+    
 }
 
 p{
 font-style:italic;
 color:rgb(26, 59, 1);
+}
+body{background: linear-gradient(109109.6deg, #ffffff 0%, #859f3d 100%); 
+}
+
+button{
+    background: linear-gradient(109109.6deg, #ffffff 0%, #859f3d 100%); 
+    color:#1b440d;
 }
